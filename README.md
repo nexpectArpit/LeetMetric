@@ -1,7 +1,7 @@
 # 📈 LeetMetric Stats
 
-A visually engaging way to showcase your **LeetCode progress** on GitHub — including solved problems, ranking, contest history, and more.  
-This project auto-generates a dynamic badge using [LeetCard](https://leetcard.jacoblin.cool/) and is perfect for adding to your profile README or portfolio.
+A visually engaging way to showcase your **LeetCode progress** on GitHub — including solved problems, ranking, contributions, and more.  
+
 
 ---
 
@@ -33,9 +33,9 @@ This project auto-generates a dynamic badge using [LeetCard](https://leetcard.ja
 
 | Layer     | Tech Used                     |
 |-----------|-------------------------------|
-| Frontend  | HTML5, CSS3 (or React if used)|
-| API       | [LeetCard API](https://leetcard.jacoblin.cool) |
-| Deployment | GitHub Pages                 |
+| Frontend  | HTML5, CSS3 |
+| API Source      | [Link](https://github.com/JeremyTsaii/leetcode-stats-api) |
+| Deployment | Vercel               |
 
 ---
 
@@ -43,8 +43,7 @@ This project auto-generates a dynamic badge using [LeetCard](https://leetcard.ja
 
 | Library           | Purpose                          |
 |-------------------|----------------------------------|
-| `LeetCard`        | To fetch and display LeetCode stats |
-| `SweetAlert2` *(optional)* | For friendly alert messages (if used later) |
+| `SweetAlert2` | For friendly alert messages  |
 
 ---
 
@@ -52,5 +51,5 @@ This project auto-generates a dynamic badge using [LeetCard](https://leetcard.ja
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/arpittripathi/leetmetric-stats.git
-   cd leetmetric-stats
+   git clone https://github.com/nexpectArpit/LeetMetric.git
+   cd LeetMetric
