@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetMetric</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- below is external library to improve validation -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>LeetMetric</h1>
+        <i id="reset-icon" >↺</i>
+
+        <div class="user-container">
+            <p>Enter your username below:</p>
+            <div class="user-input-container">
+                <input type="text" placeholder="enter your user name here" id="user-input">
+                <button id="search-btn">Search</button>
+            </div>
+        </div>
+        <div class="stats-container">
+            <div class="progress">
+                    <div class="progress-item">
+                        <div class="easy-progress circle">
+                            <span id="easy-label"></span>
+                            <p style="color: #1CBBBA;">Easy</p>
+
+                        </div>
+                    </div>
+
+                    <div class="progress-item">
+                        <div class="medium-progress circle">
+                            <span id="medium-label"></span>
+                            <p style="color: #FFB700;">Medium</p>
+                        </div>
+                    </div>
+
+                    <div class="progress-item">
+                            <div class="hard-progress circle">
+                            <span id="hard-label"></span>
+                            <p style="color: #F53837;">Hard</p>
+
+                        </div>
+                    </div>
+
+            </div>
+            <div class="stats-card">
+                <!-- directly populate card here from js code -->
+            </div>
+            
+        </div>
+
+        <h6 style="display: flex;justify-content: end;">by Arpit tripathi😊</h6>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

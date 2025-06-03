@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color:#1A1A1A;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    background-color: #282828;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    max-width: 600px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    color: #FFA423;
+}
+.user-container{
+    display:flex;
+    flex-direction:column ;
+    gap:10px;
+    justify-content: start;
+
+}
+#reset-icon{
+    display: flex;
+    justify-content: flex-end;
+    cursor:pointer; 
+    font-size:20px; 
+    color:#15eb4e;
+}
+.user-input-container{
+    display: flex;
+    justify-content: space-between;
+}
+#user-input{
+    width: 80%;
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+#search-btn{
+    padding: 0.4rem;
+    border-radius: 5px;
+}
+.circle{
+    
+  width:120px;
+  height: 120px;
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  background: conic-gradient(var(--circle-color) var(--progress-degree),var(--circle-bg-color) 0%);
+  flex-direction: column;
+  --progress-degree: 0%;/* ye ensure karege ki bg color same rahe on refreeing the webpage*/
+}
+.easy-progress {
+  border:4px solid #1CBBBA;
+  --circle-color: #1CBBBA; 
+  --circle-bg-color:#2C4645;
+  
+  
+}
+
+.medium-progress {
+    border:4px solid #FFB700;
+  --circle-color: #FFB700; 
+  --circle-bg-color:#534429;
+}
+
+.hard-progress {
+  border:4px solid #F53837;
+  --circle-color: #F53837; 
+  --circle-bg-color:#522D2C;
+}
+.circle span{
+    position: relative;
+    z-index: 2;
+}
+.progress{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.stats-card{
+    color: #2DBB5D;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: space-evenly;
+
+}
+h4{
+    font-size: 1rem;
+}
+.card{
+    background-color: #2B3A2F;
+    padding: 10px;
+    width: 40%;
+    max-width: 290px;
+    border-radius: 10px;
+    font-size: 1rem;
+    min-height: 4rem;
+}
