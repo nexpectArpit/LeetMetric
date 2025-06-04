@@ -7,8 +7,8 @@ A visually engaging way to showcase your **LeetCode progress** on GitHub — inc
 
 ## 🔗 Live Demo
 
-> 🚀 Visit here: [https://arpittripathi.github.io/leetmetric-stats](https://arpittripathi.github.io/leetmetric-stats)  
-> _(Hosted via GitHub Pages)_
+> 🚀 Deployed Link: https://leetmetric-plum.vercel.app/
+
 
 ---
 
