@@ -15,8 +15,8 @@ A visually engaging way to showcase your **LeetCode progress** on GitHub — inc
 ## 🖼️ Preview
 
 <!-- Add a screenshot of your app after deployment -->
-![LeetMetric Screenshot](./assets/leetmetric-preview.png)
-̌
+![LeetMetric Screenshot](Img1.png)
+![LeetMetric Screenshot](Img2.png)
 
 ---
 
